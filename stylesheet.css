@@ -75,29 +75,54 @@ header p{
 }
 
 .infoAndPictures img{
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border: #3882f6;
-    border-width: 14px;
 }
 
 .picturesGroup{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 15%
 }
 
 .picture1, .picture2, .picture3, .picture4{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    width: 125px;
+    padding: 40px;
+}
+
+.ThorQuoteContainer{
+    padding: 45px 25%;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
+.ThorQuote .quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
 
+.ThorQuote .author{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: flex-end;
+}
 
-.ThorQuote{
-    background-color: #e5e7eb;
+.signUpContainer{
+    padding: 40px 10%;
+}
+
+.signUp{
+    
 }
 
 .footer{
