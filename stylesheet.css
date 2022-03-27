@@ -122,11 +122,44 @@ header p{
 }
 
 .signUp{
-    
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 10%;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.signUpTextContainer{
+    color: white;
+}
+
+.signUpTextContainer h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.signUpTextContainer p{
+    margin-top: 5px;
+}
+
+.signUp button{
+    display: flex;
+    width: 10%;
+    height: 13%;
+    justify-content: center;
+    border: 1.8px solid white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
 }
 
 .footer{
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
