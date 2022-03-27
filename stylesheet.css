@@ -1,17 +1,73 @@
-.startPage{
-    background-color: #1f2937;
-}
-
-.startPage h2{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: bold;
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 header{
     background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+header p{
+    font-weight: bold;
+}
+
+.headerLinks{
+    display: flex;
+}
+
+.headerLinks a{
+    margin: 0 15px;
+}
+
+.startPage{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding:  10%;
+}
+
+.startPage h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.startPage img{
+
+}
+
+.startPageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.startPageContent button{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap:nowrap;
+    width:max-content;
+    max-height: 24px;
+    background-color: #3882f6;
+    border-radius: 15%;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.startPageContent h2{
+    margin: 0;
 }
 
 .footer{
     background-color: #1f2937;
+    color: #f9faf8;
 }
